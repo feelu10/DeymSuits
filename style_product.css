@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #c7d5eb;
+    top: 0;
+    bottom: 0;
+    
+}
+
+.nav-item:hover{
+    background-color: rgb(218, 141, 89);
+  }
+
+  body{
+    font-family: 'Poppins';
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: rgb(255, 98, 20);
+
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#deyms{
+    width: 130px;
+    margin-left: 70px
+}
+
+#searchbox{
+ width: 830px;
+}
+#cart{
+    width: 40px;
+    
+}
+
+#col{
+    width: 10px
+}
+
+.row img{
+    width: 150px;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+}
+
+.title::after{
+    content: '';
+    background: #f35c16;
+    width: 140px;
+    height: 5px ;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#row a{
+    color: black;
+}
+
+#row a:hover{
+    background-color: rgb(218, 141, 89);
+}
+
+.h2cat{
+    padding:40px 0 40px 0;
+    margin-top: 30px;
+}
+
+.h2cat{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+}
+
+.h2cat::after{
+    content: '';
+    background: #12b6ed;
+    width: 300px;
+    height: 5px ;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.container{
+    background-color: #f1f1f1;
+}
+
+button{
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+#dis{
+    color: #d8d7d7;
+}
+
+ /* Footer */
+
+ .logo2{
+    width:150px;
+}
+
+.footer{
+    background: #000000;
+    color:#8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p {
+    color:#8a8a8a;
+    margin-bottom: 20px;
+}
+
+.footer h3{
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer ul li{
+    color:#8a8a8a;
+    margin-bottom: 10px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.col-lg-3 img{
+    border-radius: 10%;
+}
+
+.footer hr{
+    border:none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.app-logo img{
+    width: 80px;
+}
+
+#payments img{
+    width: 110px;
+}
+
+#caros img{
+    margin-left:47px;
+}
+#caros button{
+margin-left:80px;
+}
+
+.carousel-control-prev{
+    width: 50px;
+}
+
+.carousel-control-next{
+    width: 50px;
+}
+
+.carousel-control-prev-icon{
+    background-color: #c7d5eb;
+
+}
+
+.carousel-control-next-icon{
+    background-color: #c7d5eb;
+
+}
+
+#caroact{
+    width:300px;
+    margin-left: 500px; 
+    margin-bottom: 50px;
+}

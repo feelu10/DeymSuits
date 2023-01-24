@@ -1,0 +1,546 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cart{
+    width:30px;
+}
+
+#search{
+    width: 300px;
+    height: 50px;
+}    
+
+#mostbuyed img{
+    border-radius: 5%;
+}
+
+#menu{
+    width:40px;
+    height:40px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+
+.logo1{
+    width:400px;
+}
+
+.logo3{
+    width:150px;
+    margin-right: 10px;
+    padding-right: 50px;
+}
+
+#SE{
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+
+.col-sm-8{
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.nav-item:hover{
+    background-color: rgb(247, 191, 142);
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: rgb(255, 98, 20);
+
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+p{
+    padding-top: 12px;
+    color: #555;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    padding: 0 0 30px 130px;
+}
+
+.col-2 img{
+    max-width: 100%;
+    padding: 30px 0;
+
+}
+
+.col-1{
+    flex: content;
+}
+
+.col h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.btn{
+    display: inline-block;
+    background: #3e3e8b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background: #648fe5;
+}
+
+.header{
+    background-color: #c7d5eb
+}
+
+.header3{
+    background-color: white;
+}
+
+.header .row{
+    margin-top: 70px;
+}
+
+#front{
+    background-color: #c7d5eb
+
+}
+
+.categories{
+    margin: 70px 0;
+    background-color: #f8f8f8;
+}
+
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col-3 img{
+    width: 100%;
+}
+
+.col-3:hover{
+    transform: translateX(5px);
+}
+
+#column2{
+    flex-basis: 30%;
+    min-width:500px;
+    margin-bottom: 30px;
+}
+
+#column2 img{
+    width: 25%;
+}
+
+#column2:hover{
+    transform: translateX(5px);
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f8f8f8;
+    border-radius: 2%;
+}
+
+.small-containers{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 2%;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    width: 610px;
+    height: 825;
+    transition: transform 0.3s;
+}
+
+.col-4 img{
+    width: 100%;
+}   
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+}
+
+.title::after{
+    content: '';
+    background: #f35c16;
+    width: 140px;
+    height: 5px ;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+h4{
+    color:#555;
+    font-weight: normal;
+}
+
+.col-4 p{
+    font-size: 14px;
+}
+
+.col-4:hover{
+    transform: translateY(-5px);
+}
+
+/* My offer style */
+
+.offer{
+    background: radial-gradient(#fff,#c7d5eb);
+    margin-top: 80px;
+    padding: 30px 0;
+    
+}
+
+#offers p h1 small{
+    text-align:center;
+    margin-right: 100px;
+}
+
+.col-2 .offer-img{
+    padding: 50px;
+}
+
+.small{
+    color:#555;
+}
+
+/* My testimonial */
+
+.testimonial{
+    padding-top: 100px;
+}
+
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0 rgb(82, 73, 70);
+    cursor: pointer;
+    transform: transform 0.5s;
+}
+
+.testimonial .col-3 img{
+    width: 80px;
+    margin-top: 20px;
+    border-radius: 50%;
+    
+}
+
+#col3 img{
+    width:40px;
+}
+#col3 p{
+    font-size: 10px;
+    color: #777;
+}
+
+#col3:hover{
+    transform: translateY(-20px);
+}
+#col3 h3{
+    font-weight: 600;
+    color:#555;
+    font-size: 2px;
+}
+
+#col3{
+    text-align: center;
+    padding: 10px 20px;
+    box-shadow: 0 0 20px 0 rgb(82, 73, 70);
+    cursor: pointer;
+    transform: transform 0.5s;
+}
+
+.testimonial .col-3:hover{
+    transform: translateY(-20px);
+}
+
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+
+.testimonial .col-3 h3{
+    font-weight: 600;
+    color:#555;
+    font-size: 16px;
+}
+
+/*----------- my brands ------------ */
+
+.brands{
+    margin: 100px auto;
+}
+
+.col-lg-2 img{
+    width: 160px;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.col-lg-2 img:hover{
+    filter: grayscale(0)
+}
+
+ /* ---------------My Footer----------------*/
+
+.logo2{
+    width:150px;
+}
+
+.footer{
+    background: #000000;
+    color:#8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p {
+    color:#8a8a8a;
+    margin-bottom: 20px;
+}
+
+.footer h3{
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer ul li{
+    color:#8a8a8a;
+    margin-bottom: 10px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.col-lg-3 img{
+    border-radius: 25%;
+}
+
+.footer hr{
+    border:none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright{
+    text-align: center;
+}
+
+ /* ---------------------------Facebook Link------------------------------- */
+
+/* unvisited link */
+.facebook:link {
+    color: orange
+  }
+  
+  /* visited link */
+  .facebook:visited {
+    color: white
+  }
+  
+  /* mouse over link */
+  .facebook:hover {
+    color: blue;
+  }
+  
+  /* selected link */
+  .facebook:active {
+    color: rgb(24, 119, 242);
+  }
+
+   /* ---------------------------Twitter Link------------------------------- */
+
+/* unvisited link */
+.twitter:link {
+    color: orange
+  }
+  
+  /* visited link */
+  .twitter:visited {
+    color: white
+  }
+  
+  /* mouse over link */
+  .twitter:hover {
+    color: blue;
+  }
+  
+  /* selected link */
+  .twitter:active {
+    color: #1DA1F2;
+  }
+
+  /* ---------------------------Tiktok Link------------------------------- */
+
+/* unvisited link */
+.tiktok:link {
+    color: orange
+  }
+  
+  /* visited link */
+  .tiktok:visited {
+    color: white
+  }
+  
+  /* mouse over link */
+  .tiktok:hover {
+    color: rgb(70, 14, 14);
+  }
+  
+  /* selected link */
+  .tiktok:active {
+    color: rgb(238, 29, 82);
+  }
+
+
+  /* ---------------------------Instagram Link------------------------------- */
+
+/* unvisited link */
+.instagram:link {
+    color: orange
+  }
+  
+  /* visited link */
+  .instagram:visited {
+    color: white
+  }
+  
+  /* mouse over link */
+  .instagram:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  .instagram:active {
+    color: rgb(228, 64, 95);
+  }
+  
+  #btns2{
+
+    padding: 8px 30px ;
+    margin:15px 90px 0 100px ;
+    justify-content: center;
+    border-radius: 5%;
+    transition: 0.5s;
+    display:block;
+    /* width: 180px; */
+    color: #fff;
+    cursor: pointer;
+    opacity: 25%;
+    background-color: rgb(133, 0, 0);
+    text-align: center;
+  }
+
+  #btns2:hover{
+    background-color: #3e3e8b;
+    opacity: 100%;
+    transform: translateX(10px);
+  }
+
+  #btns{
+    padding: 8px 30px ;
+    margin:0 0 0 87px ;
+    justify-content: center;
+    border-radius: 10%;
+    transition: 0.5s;
+    display:block;
+    width: 40px;
+    color: #fff;
+    cursor: pointer;
+    opacity: 25%;
+    background-color: red;
+    text-align: center;
+}
+
+  #btns:hover{
+        background-color: #3e3e8b;
+        opacity: 100%;
+        transform: translateY(-10px);
+    
+  }
+
+  #carou img{
+    border-radius: 10%;
+    border-style: solid;
+    border-color: black;
+  }
+  
+  

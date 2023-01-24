@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-item:hover{
+  background-color: rgb(218, 141, 89);
+}
+
+
+
+.btn{
+    display: inline-block;
+    background: #3e3e8b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 0.5s;
+    margin-top: 40px;
+}
+
+
+h3{
+    margin: 15px 0 25px 5px;
+}
+
+.h4{
+    font-family: 'Kavoon', cursive;
+}
+
+p{
+    opacity: 100px;
+    text-align: center;
+    color: #bdb9b9;
+}
+
+#btn2{
+    display: inline-block;
+    background: #cd4c4c;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    width: 140px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+#btn3{
+  display: inline-block;
+  background: #cd4c4c;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.col-3 h3{
+  margin-left: 20px;
+  text-align: center;
+  font-size: 9px;
+}
+.col-6 h3{
+  margin-left: 20px;
+  text-align: center;
+  font-size: 9px;
+}
+
+#google{
+  border-radius: 45%;
+}
+
+.btn:hover{
+    background: #648fe5;
+}
+
+.header{
+    background-color: #c7d5eb
+}
+
+.header3{
+    background-color: white;
+}
+
+.header .row{
+    margin-top: 70px;
+}
+
+#front{
+    background-color: #c7d5eb
+
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#login{
+    color:#cd4c4c;
+}
+
+.form-group{
+    margin: 5px 0 5px 0;
+}
+
+.logo2{
+    width:150px;
+}
+
+.footer{
+    background: rgb(0, 0, 0);
+    color:#8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p {
+    color:#8a8a8a;
+    margin-bottom: 20px;
+}
+
+.footer h3{
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer ul li{
+    color:#8a8a8a;
+    margin-bottom: 10px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.col-lg-3 img{
+    border-radius: 25%;
+}
+
+.footer hr{
+    border:none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright{
+    text-align: center;
+}
+
+ /* ---------------------------Facebook Link------------------------------- */
+
+/* unvisited link */
+.facebook:link {
+    color: orange
+  }
+  
+  /* visited link */
+  .facebook:visited {
+    color: white
+  }
+  
+  /* mouse over link */
+  .facebook:hover {
+    color: blue;
+  }
+  
+  /* selected link */
+  .facebook:active {
+    color: rgb(24, 119, 242);
+  }
+
+   /* ---------------------------Twitter Link------------------------------- */
+
+/* unvisited link */
+.twitter:link {
+    color: orange
+  }
+  
+  /* visited link */
+  .twitter:visited {
+    color: white
+  }
+  
+  /* mouse over link */
+  .twitter:hover {
+    color: blue;
+  }
+  
+  /* selected link */
+  .twitter:active {
+    color: #1DA1F2;
+  }
+
+  /* ---------------------------Tiktok Link------------------------------- */
+
+/* unvisited link */
+.tiktok:link {
+    color: orange
+  }
+  
+  /* visited link */
+  .tiktok:visited {
+    color: white
+  }
+  
+  /* mouse over link */
+  .tiktok:hover {
+    color: rgb(70, 14, 14);
+  }
+  
+  /* selected link */
+  .tiktok:active {
+    color: rgb(238, 29, 82);
+  }
+
+
+  /* ---------------------------Instagram Link------------------------------- */
+
+/* unvisited link */
+.instagram:link {
+    color: orange
+  }
+  
+  /* visited link */
+  .instagram:visited {
+    color: white
+  }
+  
+  /* mouse over link */
+  .instagram:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  .instagram:active {
+    color: rgb(228, 64, 95);
+  } 
+
+#forgot{
+  margin-left: 140px;
+}
+#forgot2{
+  margin-left: 90px;
+}
